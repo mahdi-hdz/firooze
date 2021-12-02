@@ -72,7 +72,7 @@ and run the backend server in localhost:
 
 ### you can see admin panel buid with vue in **http://localhost:8080/admin** when you run the frontend
 
-You may need add your frontend localhost address to crosheaders in settings.py.
+You may need to add your frontend localhost address to crosheaders in settings.py.
 
 **If your django localhost address different as http://127.0.0.1:8000 , you need to change the axios requests address in all vue components.**
 	
