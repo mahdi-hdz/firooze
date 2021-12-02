@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  firooze_postgresql:
+    image: postgres:10
+    container_name: firooze_postgresql
+    volumes:
+      - firooze_postgresql:/var/lib/postgresql/data
+    restart: always
+    env_file: .env
+    ports:
+      - "5432:5432"
+    networks:
+      - firooze_network
+
+volumes:
+  firooze_postgresql:
+    external: true
+
+networks:
+  firooze_network:
+    external: true
