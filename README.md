@@ -34,9 +34,11 @@ You need to create .env file in the backend root file with default values.
 
 Now run postgresql whit docker-compose:
 
-	docker-compose up -d
+	$ docker-compose up -d
 You can check the docker's containers:
+
 	$ docker ps -a
+	
 **Output** should be like this:
 
 	CONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS                   PORTS                                       NAMES
