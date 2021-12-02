@@ -70,6 +70,7 @@ and run the backend server in localhost:
 	$ npm install
 	$ npm run serve
 
+### you can see admin panel buid with vue in **http://localhost:8080/admin** when you run the frontend
 
 You may need add your frontend localhost address to crosheaders in settings.py.
 
