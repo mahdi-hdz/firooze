@@ -56,7 +56,7 @@ when active virtual environment, install the project requirements:
 
 	$ pip install -r requirement.txt
 	
-for django can identify the change in Models.py you should:
+Migrations:
 
 	$ python manage.py makemigrations
 	$ python manage.py migrate
