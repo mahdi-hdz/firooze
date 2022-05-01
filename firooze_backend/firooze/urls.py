@@ -17,6 +17,4 @@ urlpatterns = [
     path('api-token-auth/', CustomAuthToken.as_view()),
     path('GetDebt/', views.GetDebt.as_view()),
     path('DeleteMessage/', views.DeleteMessage.as_view()),
-    path('SetRes/', views.SetDb.as_view()),
-
 ]
